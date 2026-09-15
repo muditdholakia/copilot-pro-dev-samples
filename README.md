@@ -1,3 +1,5 @@
+> Curated learning fork maintained by [Mudit Dholakia](https://github.com/muditdholakia). Original source: [pnp/copilot-pro-dev-samples](https://github.com/pnp/copilot-pro-dev-samples). See [curation purpose and setup](CURATOR_README.md) and [security guidance](CURATOR_SECURITY.md). Upstream authorship and license are retained.
+
 # Microsoft 365 Copilot pro-developer samples
 
 This repository contains [Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/) samples.

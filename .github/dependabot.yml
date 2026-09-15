@@ -4,3 +4,78 @@ updates:
     directory: /
     schedule:
       interval: weekly
+  - package-ecosystem: nuget
+    directories:
+      - "/samples/cea-techPulse-csharp/cea-techPulse-csharp"
+      - "/samples/cea-techPulse-csharp/cea-techPulse-csharp/McpServer"
+      - "/samples/cext-trey-research-csharp"
+      - "/samples/da-MyAdvancedCommsBuddy/API/M365.Comms.API"
+      - "/samples/da-adaptive-card-dialog-csharp/AdaptiveCardDialog"
+      - "/samples/da-adaptive-card-inline-edit-csharp/AdaptiveCardInlineEdit"
+      - "/samples/da-repairs-oauth-csharp/DaRepairsOAuth"
+      - "/samples/da-repairs-oauth-validated-csharp/RepairsApi"
+      - "/samples/da-resolvemate-api/src/api/O365C.WebAPI.ResolveMate/ResolveMate.API"
+      - "/samples/da-resolvemate-api/src/api/O365C.WebAPI.ResolveMate/ResolveMate.Core"
+      - "/samples/da-resolvemate-api/src/api/O365C.WebAPI.ResolveMate/ResolveMate.Infrastructure"
+      - "/samples/da-ristorante-api-csharp/DaRistoranteApi"
+      - "/samples/da-snowwizard-cs/SnowWizardApi"
+      - "/samples/da-trey-research-auth-csharp/TreyResearchApi"
+      - "/samples/da-trey-research-cs"
+      - "/samples/mcp-cs-customers-secure-server/CustomersMCPServer"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      learning-dependencies:
+        patterns: ["*"]
+  - package-ecosystem: npm
+    directories:
+      - "/samples/cea-techpulse-js"
+      - "/samples/cext-trey-research-python"
+      - "/samples/da-adaptive-card-dialog-js"
+      - "/samples/da-adaptive-card-inline-edit-js"
+      - "/samples/da-repairs-oauth-js"
+      - "/samples/da-repairs-oauth-validated-js"
+      - "/samples/da-ristorante-api-js"
+      - "/samples/da-snowwizard-js/SnowWizard"
+      - "/samples/da-trey-research"
+      - "/samples/da-trey-research-auth-csharp"
+      - "/samples/da-trey-research-auth-js"
+      - "/samples/da-typespec-AzureAISearch_MsGraph-volunteeringapp"
+      - "/samples/da-typespec-appinsights"
+      - "/samples/da-typespec-azureopenai"
+      - "/samples/da-typespec-github"
+      - "/samples/da-typespec-powerautomate"
+      - "/samples/da-typespec-repairs"
+      - "/samples/da-typespec-repairs-apikey"
+      - "/samples/da-typespec-repairs-oauth"
+      - "/samples/da-typespec-tech-support"
+      - "/samples/da-typespec-todo"
+      - "/samples/da-typespec-trey-research"
+      - "/samples/da-volunteeringapp"
+      - "/samples/mcs-finance-statement-agent/src/code-app"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      learning-dependencies:
+        patterns: ["*"]
+  - package-ecosystem: pip
+    directories:
+      - "/samples/cea-techpulse-python/src"
+      - "/samples/cext-trey-research-python"
+      - "/samples/da-adaptive-card-dialog-python"
+      - "/samples/da-adaptive-card-inline-edit-python"
+      - "/samples/da-repairs-oauth-python"
+      - "/samples/da-repairs-oauth-validated-python"
+      - "/samples/da-ristorante-api-python"
+      - "/samples/da-snowwizard-python"
+      - "/samples/da-trey-research-auth-python"
+      - "/samples/da-trey-research-python"
+      - "/samples/mcs-finance-statement-agent/src/azure-functions"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      learning-dependencies:
+        patterns: ["*"]
