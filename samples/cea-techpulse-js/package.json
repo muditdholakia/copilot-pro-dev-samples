@@ -30,7 +30,7 @@
         "@azure/identity": "^4.8.0",
         "@azure/openai": "^2.0.0",
         "@microsoft/agents-hosting": "^0.2.14",
-        "@modelcontextprotocol/sdk": "^1.0.0",
+        "@modelcontextprotocol/sdk": "^1.32.0",
         "express": "^5.0.1",
         "openai": "^4.94.0",
         "zod": "^3.23.0"
